@@ -1,4 +1,6 @@
-# Python
+layout:	post
+title:	"Python"
+category:	python
 
 ## Common errors in Python
 
