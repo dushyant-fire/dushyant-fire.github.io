@@ -1,6 +1,8 @@
+---
 layout:	post
 title:	"Python"
 category:	code_blog
+---
 
 ## Common errors in Python
 
