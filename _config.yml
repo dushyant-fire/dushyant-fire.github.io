@@ -4,3 +4,7 @@ description: Because coding is addictive
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-slate
+
+# Site settings
+permalink: /:title/
+markdown: kramdown
