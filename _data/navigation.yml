@@ -1,17 +1,17 @@
 # Belongs at: /_data/navigation.yml
 
-- title: Home
-  url: /
+- title:  Home
+  url:  /
 
-- title: Coding mania
-  url: /_posts
+- title:  Coding mania
+  url:  /_posts
   sublinks:
-    - title: Python
-      url: /_posts/Python
-    - title: MATLAB
-      url: /_posts/MATLAB
-    - title: GitHub
-      url: /_posts/GitHub
+    - title:  Python
+      url:  /_posts/Python
+    - title:  MATLAB
+      url:  /_posts/MATLAB
+    - title:  GitHub
+      url:  /_posts/GitHub
     -title: Latex
-      url: /_posts/Latex
+      url:  /_posts/Latex
       
