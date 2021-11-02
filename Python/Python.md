@@ -1,0 +1,16 @@
+# Python
+
+## Common errors in Python
+
+
+1. Unsupported operand type(s) for &: 'int' and 'Int64Index'
+	- For multiple conditions within a DataFrame.loc[] comand (dataFrame.loc[multiple conditions]. 
+	- Make sure you have brackets clearly separating the multiple conditions
+2. IndexError: single positional indexer is out-of-bounds
+	- Reasons: No output for statistics (negligible increase in temperature stat)
+3. IndexError: 
+	- list assignment index out of range
+4. Csv.writer issues
+	- 'a' appends to existing file, 'w' over writes
+5. AttributeError: 'list' object has no attribute 'split'
+	- Required syntax - string.split('delimiter')

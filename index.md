@@ -1,5 +1,7 @@
 
-# Hello World
+# Dushyant Chaudhari
+
+## Hello World
 
 The purpose of this website is to maintain a continuous blog/report of common errors encountered while learning various data processing, statistical, type-setting softwares. This is no way a comprehensive guide, but a beginning.
 
@@ -10,3 +12,5 @@ Learning and adapting to different languages is difficult, espcially when it com
 - Latex
 - Sublime
 - Mac OS
+
+
