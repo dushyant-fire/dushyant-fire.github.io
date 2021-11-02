@@ -1,5 +1,5 @@
 layout: page
 title: "About"
-permalink: https://dushyant-fire.github.io/about/
+permalink: /about/
 
 Hello, I am a nerd.
