@@ -1,5 +1,5 @@
 ---
-layout:	post
+layout:	default
 title:	"Python"
 category:	code_blog
 ---
