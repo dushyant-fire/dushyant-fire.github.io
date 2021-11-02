@@ -13,4 +13,5 @@ Learning and adapting to different languages is difficult, espcially when it com
 - Sublime
 - Mac OS
 
+[About me](https://dushyant-fire.github.io/about)
 
