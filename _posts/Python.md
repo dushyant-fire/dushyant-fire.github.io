@@ -1,6 +1,6 @@
 layout:	post
 title:	"Python"
-category:	python
+category:	code_blog
 
 ## Common errors in Python
 
