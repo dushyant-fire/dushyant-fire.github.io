@@ -4,6 +4,13 @@ You can use the [editor on GitHub](https://github.com/dushyant-fire/dushyant-fir
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+
+Hello World
+
+The purpose of this website is to maintain a continuous blog/report of common errors encountered while learning various data processing, statistical, type-setting softwares. This is no way a comprehensive guide, but a beginning.
+
+Learning and adapting to different languages is difficult, espcially when it comes to data analysis. There are syntax issues arising from muscle memory, trying to resolve/debug an error which you encountered a couple months ago. So, to create a one-stop shop for the beauty of debugging, here I am to help myself and whoever in need.
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
