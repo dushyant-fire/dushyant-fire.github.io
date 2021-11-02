@@ -1,4 +1,4 @@
 ---
-layout: post-index
+layout: default
 title: All Blog Posts
 ---
