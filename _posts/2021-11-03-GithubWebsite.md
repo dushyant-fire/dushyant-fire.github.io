@@ -10,3 +10,4 @@ permalink:	/code/GithubWebsite
 
 ## Things to look out for:
 1. Tabs in the yaml format above the .md or .html file of the page
+2. permalink of a page and referenced in a tab/navigation menu etc.
