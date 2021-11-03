@@ -12,7 +12,7 @@ Learning and adapting to different languages is difficult, espcially when it com
 - Latex
 - Sublime
 - Mac OS
-- [Guide to create GitHub Pages website](https://dushyant-fire.github.io/code/Github-website)
+- [Guide to create GitHub Pages website](https://dushyant-fire.github.io/code/GithubWebsite)
 
 [About me](https://dushyant-fire.github.io/about)
 
