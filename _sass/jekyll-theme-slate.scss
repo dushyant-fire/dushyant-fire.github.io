@@ -41,9 +41,9 @@ table {
 
 /* Header for navigation */
 .navigation-wrapper {
-/*  @include container;*/
+  @include container;
   padding: 2em 0 1em;
-  font-family: $heading-font;
+  /*font-family: $heading-font;*/
   font-weight: 700;
   text-transform: uppercase;
   @include clearfix;
