@@ -3,8 +3,10 @@ title: Dushyant Chaudhari
 description: Because coding is addictive
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-slate
+twitter_username: dushyant_fire
+github_username: dushyant-fire
+# minimal_mistakes_skin: default
 
 # Site settings
-permalink: /:title/
+permalink: /:categories/:title/
 markdown: kramdown
