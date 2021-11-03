@@ -6,6 +6,8 @@ date:	2021-11-02 08:00:00 -0000
 permalink:	/code/Python
 ---
 
+# Python
+
 ## Common errors in Python
 
 1. Unsupported operand type(s) for &: 'int' and 'Int64Index'

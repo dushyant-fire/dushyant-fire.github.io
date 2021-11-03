@@ -1,0 +1,22 @@
+---
+layout:	defualt
+title:	"MATLAB"
+category:	code
+date:	2021-11-02 08:00:00 -0000
+permalink:	/code/MATLAB
+---
+
+# MATLAB
+
+## Few notes
+1. Python requires packages for the user to be able to perform some tasks that could be otherwise performed directly in MATLAB. For instance, 
+	- [`matplotlib`] (https://matplotlib.org/stable/contents.html) for plotting, 
+	- [`numpy`](https://numpy.org/doc/stable/user/whatisnumpy.html) for matrices, arrays and various sceintific friendly analysis, 
+	- [`pandas`](https://pandas.pydata.org/docs/user_guide/index.html#user-guide) for data manipulation and analysis
+	- `csv` for writing csv files
+
+## Few errors because of too much familiarity with MATLAB syntax
+Sometimes the problem is just a simple struggle with memorized syntax
+1. AttributeError: 'list' object has no attribute 'split'
+	- Correct syntax = `string.split('delimiter')` and not `split(string,'delimiter')` as in MATLAB
+
