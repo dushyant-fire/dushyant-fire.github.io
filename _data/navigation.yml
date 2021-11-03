@@ -5,8 +5,16 @@
 
 - title: Research
   url:  /research/
-- title:  Coding mania
+
+- title:  Code mania
   url:  /code/
+
+- title: Blog
+  url: /blog/
+
+- title: CV
+  url: /cv/
+
 - title:  About
   url:  /about/
       
