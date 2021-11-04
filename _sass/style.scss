@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "{{ site.theme }}";
+
 footer a {
   color: #E09F3E/*F2F2F2;*/
   text-decoration: underline;
@@ -70,5 +72,5 @@ footer a {
   }
 }
 
-@import "{{ site.theme }}";
+
 
