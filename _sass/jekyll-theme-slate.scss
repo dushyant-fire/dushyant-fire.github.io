@@ -3,6 +3,83 @@
 /*******************************************************************************
 MeyerWeb Reset
 *******************************************************************************/
+@mixin clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    /* Fixes Opera/contenteditable bug: */
+    /* https://nicolasgallagher.com/micro-clearfix-hack/#comment-36952 */
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin grid($grid:$def_grid,$cols:'',$float:left,$display:inline){
+  display:$display;
+  float:$float;
+  width:(100%/$grid * $cols) - ($margin * 2);
+}
+
+/*
+   Add x amount of column padding before an element
+   Example: @include prefix(1,12);
+   ========================================================================== */
+
+@mixin prefix($grid:$def_grid,$cols:''){
+  margin-left:(100%/$grid * $cols);
+}
+
+/*
+   Add x amount of column padding after an element
+   Example: @include suffix(2,12);
+   ========================================================================== */
+
+@mixin suffix($grid:$def_grid,$cols:''){
+  margin-right:(100%/$grid * $cols);
+}
+
+/*
+   Just font-size (REMs + pixel fallback)
+   example: @include font-rem(16);
+   ========================================================================== */
+
+@mixin font-rem($size) {
+  font-size: 0px + $size;
+  font-size: 0rem + $size / $doc-font-size;
+}
+
+/*
+   Colors
+   ========================================================================== */
+
+$bodycolor      : #fff;
+$body-color     : $bodycolor;
+$textcolor      : #333332;
+$text-color     : $textcolor;
+$border-color   : $text-color;
+$basecolor      : #343434;
+$compcolor      : spin($basecolor, 180);
+$bordercolor    : $basecolor;
+$white          : #fff;
+$black          : #111;
+$accentcolor    : $black;
+$highlightcolor:  #333332
+
+/*
+   Breakpoints
+   ========================================================================== */
+
+$micro            : "only screen and (min-width: 30em)";
+$small            : "only screen and (min-width: 37.5em)";
+$medium           : "only screen and (min-width: 48em)";
+$large            : "only screen and (min-width: 62em)";
+$x-large          : "only screen and (min-width: 86.375em)";
+
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -23,6 +100,70 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+
+/* Header for navigation */
+.navigation-wrapper {
+  padding: 2em 0 1em;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  @include clearfix;
+  border-bottom-style: solid;
+  border-bottom-color: $highlightcolor;
+  border-bottom-width: .5em;
+}
+
+/* Top navigation links */
+.top-navigation {
+  @include grid(12,10);
+  @include prefix(12,1);
+  @include suffix(12,1);
+  margin-bottom: 1em;
+  float: none;
+  display: block;
+  @media #{$small} {
+    @include grid(12,9);
+    @include prefix(12,0);
+    @include suffix(12,0);
+  }
+  @media #{$x-large} {
+    @include grid(12,8);
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    list-style-type: none;
+  }
+  li {
+    display: block;
+    list-style-type: none;
+    border-bottom: 1px solid lighten($black,80);
+    border-bottom: 1px solid fade($black,10);
+    @include font-rem(16);
+    &:last-child {
+      border-bottom: 0 solid transparent;
+    }
+    @media #{$small} {
+      display: inline;
+      margin-right: 25px;
+      white-space: nowrap;
+      border-bottom: 0 solid transparent;
+    }
+    a {
+      display: block;
+      padding: 10px 0;
+      decoration: none;
+      border-bottom: 0 solid transparent;
+      @include transition(all .2s);
+      @media #{$small} {
+        display: inline;
+        padding: 0;
+      }
+    }
+  }
+}
+
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
