@@ -191,6 +191,25 @@ time, mark, audio, video {
   }
 }
 
+// Style the toggle menu link and hide it
+.nav .navtoggle {
+  @include font-rem(18);
+  font-weight: normal;
+  background-color: $black;
+  color: $white;
+  border: none;
+  cursor: pointer;
+  @media #{$small} {
+    display: none;
+  }
+}
+.nav button {
+  border: none;
+  background: none;
+}
+.navtoggle i {
+  z-index:-1;
+}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
