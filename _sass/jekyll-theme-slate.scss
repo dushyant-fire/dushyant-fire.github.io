@@ -392,7 +392,6 @@ Full-Width Styles
 
 /* Site name */
 .site-name {
-  color: #F2F2F2;
   @include grid(12,10);
   @include prefix(12,1);
   @include suffix(12,1);
@@ -410,6 +409,10 @@ Full-Width Styles
     @include grid(12,1.5);
     @include prefix(12,2);
   }
+}
+
+.site-name a {
+    color: #F2F2F2;
 }
 
 /* Top navigation links */
@@ -450,6 +453,7 @@ Full-Width Styles
       border-bottom: 0 solid transparent;
     }
     a {
+      color: #F2F2F2;
       display: block;
       padding: 10px 0;
       decoration: none;
