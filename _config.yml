@@ -5,8 +5,13 @@ description: Because coding is addictive
 #logo: logo.jpeg
 show_downloads: false
 google_analytics:
-twitter_username: dushyant_fire
-github_username: dushyant-fire
+
+owner:  
+  name: Dushyant Chaudhari
+  avatar: bio-photo.png
+  twitter: dushyant_fire
+  github: dushyant-fire
+  linkedin: dushyantc
 # minimal_mistakes_skin: default
 
 # Site settings

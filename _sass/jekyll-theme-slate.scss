@@ -299,7 +299,6 @@ blockquote {
   border-left: 3px solid #bbb;
 }
 
-
 ul, ol, dl {
   margin-bottom: 15px
 }
@@ -499,6 +498,11 @@ Full-Width Styles
   max-width: 640px;
   padding: 10px 10px;
   margin: 0 auto;
+}
+
+.img_float{
+  float: left;
+  display: inline;
 }
 
 #forkme_banner {
