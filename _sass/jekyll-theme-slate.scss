@@ -62,7 +62,7 @@ $margin: 0;
   }
 }
 
-@mixin grid($grid:$def_grid,$cols:'',$float:left,$display:inline){
+@mixin grid($grid:$def_grid,$cols:'',$float:none,$display:inline){
   display:$display;
   float:$float;
   width:(100%/$grid * $cols) - ($margin * 2);
@@ -422,7 +422,7 @@ Full-Width Styles
   /*margin-bottom: 1em;*/
   position: relative;
   padding: 1em 1em 1em 3em;
-  margin: 1em auto;
+  margin: 0 auto;
   float: none;
   display: block;
   @media #{$small} {
