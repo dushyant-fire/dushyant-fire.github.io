@@ -380,7 +380,8 @@ Full-Width Styles
 
 /* Header for navigation */
 .navigation-wrapper {
-  padding: 2em 2em 2em;
+  margin: 1em;
+  padding: 2em;
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif; /*'PT Sans Narrow', sans-serif;*/
   font-weight: 700;
   text-transform: uppercase;
@@ -398,7 +399,7 @@ Full-Width Styles
   margin-bottom: 1em;
   float: none;
   display: block;
-  @include font-rem(24);
+  @include font-rem(30);
   @media #{$small} {
     @include grid(12,2);
     @include prefix(12,0.5);
