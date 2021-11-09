@@ -1,0 +1,33 @@
+<!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+{% include head-custom-google-analytics.html %}
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->
+
+<!-- end custom head snippets -->
+
+<div class="navigation-wrapper">
+  <div class="site-name">
+    {% if site.logo %}
+    <a href="{{ site.github.url }}/"><img src="assets/images/{{ site.logo }} "></a>
+    {% else %}
+    <a href="{{ site.github.url }}/">{{ site.title }}</a>
+    {% endif %}
+  </div><!-- /.site-name -->
+  <div class="top-navigation">
+    <nav role="navigation" id="site-nav" class="nav">
+        <ul>
+            {% for link in site.data.navigation %}
+            {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+                {% else %}
+                {% assign domain = site.github.url %}
+            {% endif %}
+            <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+        {% endfor %}
+        </ul>
+    </nav>
+  </div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
