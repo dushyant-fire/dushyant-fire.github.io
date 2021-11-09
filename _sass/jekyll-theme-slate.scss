@@ -381,9 +381,6 @@ Full-Width Styles
 /* Header for navigation */
 .navigation-wrapper {
   padding: 0.5% 0% 0.5% 30%;
-  @media #{$small} {
-  padding: 0;
-  }
   /*max-width:  600px;*/
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif; /*'PT Sans Narrow', sans-serif;*/
   font-weight: 700;
@@ -414,15 +411,14 @@ Full-Width Styles
     @include grid(12,1.5);
     @include prefix(12,2);
   }
-}
-
-.site-name a {
+  a {
     color: #F2F2F2;
+  }
 }
 
 /* Top navigation links */
 .top-navigation {
-  @include grid(12,10);
+  /*@include grid(12,10);*/
   /*@include prefix(12,1);
   @include suffix(12,1);*/
   /*margin-bottom: 1em;*/
