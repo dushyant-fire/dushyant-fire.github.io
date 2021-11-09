@@ -449,12 +449,12 @@ Full-Width Styles
     &:last-child {
       border-bottom: 0 solid transparent;
     }
-    @media #{$small} {
+    /*@media #{$small} {
       display: inline;
       margin-right: 25px;
       white-space: nowrap;
       border-bottom: 0 solid transparent;
-    }
+    }*/
     a {
 
       display: block;
@@ -462,10 +462,10 @@ Full-Width Styles
       decoration: none;
       border-bottom: 0 solid transparent;
       @include transition(all .2s);
-      @media #{$small} {
+      /*@media #{$small} {
         display: inline;
         padding: 0;
-      }
+      }*/
     }
   }
 }
