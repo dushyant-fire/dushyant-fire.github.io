@@ -45,7 +45,7 @@ $x-large          : "only screen and (min-width: 86.375em)";
 
 $width: 100%;
 $def_grid: 12;
-$margin: 0;
+$margin: 10;
 
 @mixin clearfix {
   *zoom: 1;
@@ -62,7 +62,7 @@ $margin: 0;
   }
 }
 
-@mixin grid($grid:$def_grid,$cols:'',$float:none,$display:inline){
+@mixin grid($grid:$def_grid,$cols:'',$float:left,$display:inline){
   display:$display;
   float:$float;
   width:(100%/$grid * $cols) - ($margin * 2);
@@ -399,7 +399,7 @@ Full-Width Styles
   float: none;
   display: block;
   @include font-rem(24);
-  @media #{$medium} {
+  @media #{$small} {
     @include grid(12,2);
     @include prefix(12,0.5);
     @include suffix(12,0.5);
