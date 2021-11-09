@@ -381,7 +381,7 @@ Full-Width Styles
 /* Header for navigation */
 .navigation-wrapper {
   padding: 2em 0 1em;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif; /*'PT Sans Narrow', sans-serif;*/
   font-weight: 700;
   text-transform: uppercase;
   @include clearfix;
