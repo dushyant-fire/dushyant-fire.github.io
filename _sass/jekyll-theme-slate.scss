@@ -423,8 +423,8 @@ Full-Width Styles
   @include suffix(12,1);*/
   /*margin-bottom: 1em;*/
   position: relative;
-  /*padding: 0.5% 0% 0.5% 30%;
-  margin: 0.5% auto;*/
+  /*padding: 0.5% 0% 0.5% 30%;*/
+  margin: 0.5% auto;
   display: block;
   /*@media #{$small} {
     @include grid(12,9);
@@ -435,8 +435,8 @@ Full-Width Styles
     @include grid(12,8);
   }*/
   ul {
-    margin: 0.5% auto;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0.5% 0% 0.5% 30%;
     clear: both;
     list-style-type: none;
   }
