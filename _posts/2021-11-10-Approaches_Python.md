@@ -6,9 +6,9 @@ date:	2021-11-10 15:00:00 -0000
 permalink:	/code/Python/Data_approaches
 ---
 
-# Approaches for data analysis in Python
+## Approaches for data analysis using Python
 
-## Finding if two lists have a shared element
+### Finding if two lists have a shared element
 
 - There are at least four ways to approach this problem. With great details mentioned in the <a href="https://stackoverflow.com/questions/3170055/test-if-lists-share-any-items-in-python" target="_blank"> Stackoverflow question</a>
 
