@@ -424,6 +424,7 @@ Full-Width Styles
   /*margin-bottom: 1em;*/
   position: relative;
   /*padding: 0.5% 0% 0.5% 30%;*/
+  text-align: center;
   margin: 0.5% auto;
   display: block;
   @media #{$small} {
@@ -506,8 +507,10 @@ Full-Width Styles
   float: left;
   display: inline;
   float: left; 
-  padding: 50px;
-  box-shadow: none;
+  padding: 50px;  
+  border: none;
+
+  box-shadow: 0;
   -webkit-box-shadow: 0;
   -moz-box-shadow: 0;
   -o-box-shadow: 0;
@@ -516,10 +519,17 @@ Full-Width Styles
 
 .social_links {
   position: relative;
-  padding:  0%  30% 0%;
+  padding:  0%;
   displace: inline;
   font-size:  12px;
   text-align: center;
+  border: none;
+
+  box-shadow: 0;
+  -webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  -o-box-shadow: 0;
+  -ms-box-shadow: 0;
   a {
     color: #FAFBFC;
   }
@@ -529,6 +539,9 @@ Full-Width Styles
   width: 20px; 
   border: 0;
   box-shadow: none;
+  border: none;
+  padding: 2px 5px 2px;
+
   -webkit-box-shadow: 0;
   -moz-box-shadow: 0;
   -o-box-shadow: 0;
