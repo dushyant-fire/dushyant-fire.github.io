@@ -500,7 +500,8 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-.img_float{
+.img_float {
+  position: relative;
   float: left;
   display: inline;
 }
