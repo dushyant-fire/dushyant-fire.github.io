@@ -507,8 +507,11 @@ Full-Width Styles
   display: inline;
   float: left; 
   padding: 50px;
-  background-color: #F2F2F2;
   box-shadow: none;
+  -webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  -o-box-shadow: 0;
+  -ms-box-shadow: 0;
 }
 
 .social_links {
@@ -516,9 +519,20 @@ Full-Width Styles
   padding:  0%  30% 0%;
   displace: inline;
   font-size:  12px;
+  text-align: center;
   a {
-    color: #F2F2F2;
+    color: #FAFBFC;
   }
+}
+
+.social_links_img{
+  width: 20px; 
+  border: 0;
+  box-shadow: none;
+  -webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  -o-box-shadow: 0;
+  -ms-box-shadow: 0;
 }
 
 #forkme_banner {
