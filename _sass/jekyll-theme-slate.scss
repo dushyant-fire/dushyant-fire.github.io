@@ -519,17 +519,11 @@ Full-Width Styles
 
 .social_links {
   position: relative;
-  padding:  0%;
+  padding:  10px;
   displace: inline;
   font-size:  12px;
   text-align: center;
-  border: none;
 
-  box-shadow: 0;
-  -webkit-box-shadow: 0;
-  -moz-box-shadow: 0;
-  -o-box-shadow: 0;
-  -ms-box-shadow: 0;
   a {
     color: #FAFBFC;
   }
@@ -537,8 +531,7 @@ Full-Width Styles
 
 .social_links_img{
   width: 20px; 
-  border: 0;
-  box-shadow: none;
+  height: 20px;
   border: none;
   padding: 2px 10px 2px;
 
