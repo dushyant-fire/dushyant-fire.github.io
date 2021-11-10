@@ -384,7 +384,7 @@ Full-Width Styles
   /*max-width:  600px;*/
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif; /*'PT Sans Narrow', sans-serif;*/
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
   @include clearfix;
   border-bottom-style: solid;
   border-bottom-color: $highlightcolor;
