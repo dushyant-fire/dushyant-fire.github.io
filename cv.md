@@ -31,14 +31,14 @@ Thesis: Application of Computational Fluid Dynamics (CFD) to Study Liquefied Nat
 ### Journals
 
 `2021`
-- __Chaudhari D.M.__, Stoliarov S.I., Beach M.W., Suryadevara K.A., Polyisocyanurate foam pyrolysis and flame spread modeling, Appl. Sci. 11 2021. https://doi.org/10.3390/APP11083463.
+- __Chaudhari D.M.__, Stoliarov S.I., Beach M.W., Suryadevara K.A., Polyisocyanurate foam pyrolysis and flame spread modeling, Appl. Sci. 11 2021. <a>https://doi.org/10.3390/APP11083463</a>.
 
-- __Chaudhari D.M.__, Fiola G.J., Stoliarov S.I., Experimental analysis and modeling of Buoyancy-driven flame spread on cast poly(methyl methacrylate) in corner configuration, Polym. Degrad. Stab. 183 2021 109433. https://doi.org/10.1016/j.polymdegradstab.2020.109433.
+- __Chaudhari D.M.__, Fiola G.J., Stoliarov S.I., Experimental analysis and modeling of Buoyancy-driven flame spread on cast poly(methyl methacrylate) in corner configuration, Polym. Degrad. Stab. 183 2021 109433. <a>https://doi.org/10.1016/j.polymdegradstab.2020.109433</a>.
 
-- Fiola G.J., __Chaudhari D.M.__, Stoliarov S.I., Comparison of Pyrolysis Properties of Extruded and Cast Poly(methyl methacrylate), Fire Saf. J. 120 2021 103083. https://doi.org/10.1016/j.firesaf.2020.103083.
+- Fiola G.J., __Chaudhari D.M.__, Stoliarov S.I., Comparison of Pyrolysis Properties of Extruded and Cast Poly(methyl methacrylate), Fire Saf. J. 120 2021 103083. <a>https://doi.org/10.1016/j.firesaf.2020.103083</a>.
 
 `2017`
-- Jain P., Reese A.M., __Chaudhari D.__, Mentzer R.A., Mannan M.S., Regulatory approaches - Safety case vs US approach: Is there a best solution today?, J. Loss Prev. Process Ind. 46 2017 154–162. https://doi.org/10.1016/j.jlp.2017.02.001. 
+- Jain P., Reese A.M., __Chaudhari D.__, Mentzer R.A., Mannan M.S., Regulatory approaches - Safety case vs US approach: Is there a best solution today?, J. Loss Prev. Process Ind. 46 2017 154–162. <a>https://doi.org/10.1016/j.jlp.2017.02.001</a>. 
 
 
 ## Presentations

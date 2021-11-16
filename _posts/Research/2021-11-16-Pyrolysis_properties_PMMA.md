@@ -10,7 +10,7 @@ Poly (methyl methacrylate) (PMMA) has long been a benchmark material of study in
 
 A dichotomy has been observed between study and application; while cast PMMA is more commonly studied and modeled, it is extruded PMMA that has wider use and application. This study investigates the differences between cast and extruded PMMA on a property-specific level, and whether the differences justify unique pyrolysis models for each.
 
-![Cone heater](/assets/images/cone_heater.jpeg "Cone heater")
+<img class="img" src="{{ site.github.url }}/assets/images/cone_heater.jpeg">
 
 Experimental results show notable variation in milligram-scale tests such as Thermo-gravimetric Analysis (TGA), Differential Scanning Calorimeter (DSC) and Microscale combustion calorimeter (MCC), but only slight variation in gram-scale tests (Controlled Atmosphere Pyrolysis Apparatus II or CAPA II).
 

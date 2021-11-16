@@ -9,5 +9,14 @@ This page shares some research projects I have completed. Currently, I am a post
 
 ## Projects
 
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.permalink }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
 ## Publications (to another webpage)
 
