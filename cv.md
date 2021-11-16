@@ -8,18 +8,20 @@ permalink:	/cv/
 
 ## Currently
 
-Current Position Description
+I currently work as a Post-Doctoral Reseasrcher at UL's Fire Safety Research Institute (FSRI) in Columbia, Maryland. I am involved in multiple projects requiring application and assessment of Fire Dynamics Simulator (FDS), a Large Eddy Simulation (LES) code. I simulate life-size experiments performed by UL FSRI to investigate the robustness of several sub-models used in FDS. I am also involved in data analysis of large-scale experiments to derive sceintific-based improvement of understanding hazards in such scnearios and provide tactical considerations for firefighting.
 
 ## Education
 
 `2017 - 2021`
 __University of Maryland, College Park__
 Ph.D. in Mechanical Engineering
+
 Dissertation: Experiments and Semi-Empirical Modeling of Buoyancy-Driven, Turbulent Flame Spread over Combustible Solids in a Corner Configuration
 
 `2014 - 2016`
 __Texas A&M University, College Station__
 Masters in Chemical Engineering
+
 Thesis: Application of Computational Fluid Dynamics (CFD) to Study Liquefied Natural Gas (LNG) Pool Fires
 
 ## Publications
