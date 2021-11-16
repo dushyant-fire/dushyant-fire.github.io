@@ -452,7 +452,7 @@ Full-Width Styles
     }
     @media #{$small} {
       display: inline;
-      margin-right: 25px;
+      margin-right: 0px;
       white-space: nowrap;
       border-bottom: 0 solid transparent;
     }
