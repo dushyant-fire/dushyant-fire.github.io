@@ -425,7 +425,7 @@ Full-Width Styles
   position: relative;
   /*padding: 0.5% 0% 0.5% 30%;*/
   text-align: center;
-  margin: 0.5% auto;
+  margin: 0 auto;
   display: block;
   @media #{$small} {
     @include grid(12,9);
