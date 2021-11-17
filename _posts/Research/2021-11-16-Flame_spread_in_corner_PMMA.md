@@ -1,6 +1,6 @@
 ---
 layout:	default
-title:	"Comparison of pyrolysis properties of cast and extruded PMMA"
+title:	"Flame Spread on Poly (Methyl Methacrylate) in Corner Configuration"
 permalink:	/research/flame-spread-pmma
 category:	research
 ---
