@@ -24,6 +24,7 @@ Remember to include the quotes('') around the variable name.
 
 ### Merging DataFrames
 - If two DataFrames called `df1` and `df2` exist such that,
+
 ```
 df1 = pd.DataFrame(
     {
@@ -47,12 +48,14 @@ df2 = pd.DataFrame(
 )
 ```
 Then,
+
 ```
 frames = [df1,df2]
 df3 = pd.concat(frames)
 print(df3)
 ```
 will give:
+
 ```
     A   B   C   D
 0  A0  B0  C0  D0
