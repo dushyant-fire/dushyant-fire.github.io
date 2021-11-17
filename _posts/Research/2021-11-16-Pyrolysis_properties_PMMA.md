@@ -1,7 +1,8 @@
 ---
 layout:	default
-title:	"Research"
+title:	"Comparison of pyrolysis properties of cast and extruded PMMA"
 permalink:	/research/pyro-prop-pmma
+category:	research
 ---
 
 ## Comparison of pyrolysis properties of cast and extruded PMMA

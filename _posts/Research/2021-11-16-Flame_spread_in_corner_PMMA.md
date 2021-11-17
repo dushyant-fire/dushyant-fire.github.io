@@ -1,7 +1,8 @@
 ---
 layout:	default
-title:	"Research"
+title:	"Comparison of pyrolysis properties of cast and extruded PMMA"
 permalink:	/research/pyro-prop-pmma
+category:	research
 ---
 
 ## Comparison of pyrolysis properties of cast and extruded PMMA
@@ -14,9 +15,9 @@ PMMA exhibits thermal degradation that is non-charring, non-swelling, and primar
 
 This research project is focused on studying flame spread in corner fire over PMMA so as to experimentally measure crucial parameters that primarily govern the flame spread phenomenon, namely heat release rate (HRR) via oxygen consumption calorimetry, well-resolved flame heat fluxes during the flame spread process, and emissions at 900 nm narrowband to observe emissions from soot (a primary emitter at this wavelength). The wealth of collected data can be used for validation of sub-models used in Computational Fluid Dynamics (CFD) models. The objective also involves developing an empirical flame feedback model and developing a semi-empirical flame spread model to predict HRR evolution during the flame spread process.
 
-Shown below are some snippets of the flame spread over PMMA captured at the narrowband 900 ± 10 nm wavelength (pinkish flame on the left), the flame spread problem schematic (center), an image of the flame when the entire PMMA panel was burning (right).
+<!-- Shown below are some snippets of the flame spread over PMMA captured at the narrowband 900 ± 10 nm wavelength (pinkish flame on the left), the flame spread problem schematic (center), an image of the flame when the entire PMMA panel was burning (right).
 
 
 
 
-Additional details of the project can be found ![here]
+Additional details of the project can be found ![here]() -->

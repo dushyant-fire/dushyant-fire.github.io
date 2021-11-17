@@ -1,6 +1,6 @@
 ---
 layout:	default
-title:	"Approaches"
+title:	"Approaches for data analysis using Python"
 category:	code
 date:	2021-11-10 15:00:00 -0000
 permalink:	/code/Python/Data_approaches
