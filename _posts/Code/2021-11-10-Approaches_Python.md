@@ -70,7 +70,7 @@ will give:
 ### Ways to add multiple legend in the `Matplotlib.pyplot` plot
 
 - Suppose you have a plot with muliple markers denoting set of temperature data and multiple lines denoting the average temperature. If you need to add legend to reflect both the markers and the average lines, multiple legend can be added in the following ways:
-1. Collecting the plot/error bars in a `matplotlib.pyplot` container by assigning a variable to the particular plot function, and then calling individual container variables to set it as a legend. This also requires adding an _artist_ which allows manual addition of _art_ on the plots.
+1. Collecting the plot/error bars in a `matplotlib.pyplot` container by assigning a variable to the particular plot function, and then calling individual container variables to set it as a legend. This also requires adding an _artist_ which allows manual addition of _art_ on the plots, which is done by `axes/plt/fig.add_artist()` command
 
 ```
 import matplotlib.pyplot as plt
