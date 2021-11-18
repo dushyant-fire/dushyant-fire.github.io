@@ -19,3 +19,6 @@ owner:
 # Site settings
 permalink: /:categories/:title/
 markdown: kramdown
+
+plugins:
+   - jekyll-remote-theme
