@@ -1,6 +1,6 @@
 ---
 layout:	default
-title:	"Code Mania"
+title:	Code Mania
 permalink:	/code/
 ---
 
