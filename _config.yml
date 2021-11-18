@@ -1,5 +1,5 @@
-theme: jekyll-theme-slate-update
-# remote_theme: dushyant-fire/dushyant-fire.github.io
+# theme: jekyll-theme-slate-update
+remote_theme: dushyant-fire/dushyant-fire.github.io
 title: Dushyant Chaudhari
 description: Because coding is addictive
 #logo: logo.jpeg
