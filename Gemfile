@@ -4,8 +4,8 @@ source "https://rubygems.org"
 
 # gemspec
 
-gem "jekyll-remote-theme"
-# gem "jekyll"#, "~> 3.0"
+# gem "jekyll-remote-theme"
+gem "jekyll"#, "~> 3.0"
 #gem "jekyll-sitemap"
 #gem "jekyll-seo-tag"
 #gem "jekyll-gist"
