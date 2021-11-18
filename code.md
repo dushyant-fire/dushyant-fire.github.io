@@ -4,8 +4,6 @@ title:	"Code Mania"
 permalink:	/code/
 ---
 
-# Home
-
 ## Hello World
 
 The purpose of this portion of the website is to maintain a continuous blog/report of common errors encountered while learning various data processing, statistical, type-setting softwares. This is no way a comprehensive guide, but a beginning.

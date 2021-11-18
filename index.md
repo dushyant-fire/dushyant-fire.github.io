@@ -1,3 +1,7 @@
+---
+layout:	default
+title: Home
+---
 # Hello World
 
 Carl Sagan in an interview with Charlie Rose in 1996, said,
