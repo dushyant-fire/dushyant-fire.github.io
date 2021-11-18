@@ -3,7 +3,7 @@
     {% if site.logo %}
     <a href="{{ site.github.url }}/"><img src="assets/images/{{ site.logo }} "></a>
     {% else %}
-    <a href="{{ site.github.url }}/">{{ site.title }}</a>
+    <a href="{{ site.github.url }}/">{{ page.title }}</a>
     {% endif %}
   </div><!-- /.site-name -->
   <div class="top-navigation">
@@ -15,7 +15,7 @@
               {{ item.name }}
             </a>
             {% endfor %}
-            
+
             {% for link in site.data.navigation %}
             {% if link.url contains 'http' %}
                 {% assign domain = '' %}
