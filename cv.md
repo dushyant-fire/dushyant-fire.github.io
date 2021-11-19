@@ -1,10 +1,8 @@
 ---
 layout:	default
-title:	CV
+title:	Curriculum Vitae
 permalink:	/cv/
 ---
-
-# CV
 
 ## Currently
 

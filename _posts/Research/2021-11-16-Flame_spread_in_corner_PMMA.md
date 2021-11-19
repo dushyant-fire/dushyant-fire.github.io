@@ -1,11 +1,9 @@
 ---
 layout:	default
-title:	"Flame Spread on Poly (Methyl Methacrylate) in Corner Configuration"
+title:	Flame Spread on Poly (Methyl Methacrylate) in Corner Configuration
 permalink:	/research/flame-spread-pmma
 category:	research
 ---
-
-## Flame Spread on Poly (Methyl Methacrylate) in Corner Configuration
 
 Corner fires are more hazardous than open wall fires due to the restricted geometry. The geometrical constraints cause corner flames to have longer flame lengths and more hazardous due to increased radiative feedback between the two adjacent walls. Thus, corner fires on combustible material serve as a severe test for the materials before they are employed in commercial applications. Developing prediction capability of fire hazard in such scenarios is important to assist material development, screening, and testing.
 
