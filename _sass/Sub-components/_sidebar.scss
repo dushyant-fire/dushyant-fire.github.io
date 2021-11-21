@@ -1,7 +1,7 @@
 @import 'mixins';
 
 .sidebar {
-  @include clearfix()
+  @include clearfix;
   float:  right;
   width: 100px;
   clear:  both;
