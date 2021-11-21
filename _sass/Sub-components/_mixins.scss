@@ -1,0 +1,60 @@
+@mixin clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    /* Fixes Opera/contenteditable bug: */
+    /* https://nicolasgallagher.com/micro-clearfix-hack/#comment-36952 */
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin grid($grid:$def_grid,$cols:'',$float:none,$display:inline){
+  display:$display;
+  float:$float;
+  width:(100%/$grid * $cols) - ($margin * 2);
+}
+
+/*
+   Add x amount of column padding before an element
+   Example: @include prefix(1,12);
+   ========================================================================== */
+
+@mixin prefix($grid:$def_grid,$cols:''){
+  margin-left:(100%/$grid * $cols);
+}
+
+/*
+   Add x amount of column padding after an element
+   Example: @include suffix(2,12);
+   ========================================================================== */
+
+@mixin suffix($grid:$def_grid,$cols:''){
+  margin-right:(100%/$grid * $cols);
+}
+
+/*
+   Just font-size (REMs + pixel fallback)
+   example: @include font-rem(16);
+   ========================================================================== */
+
+@mixin font-rem($size) {
+  font-size: 0px + $size;
+  font-size: 0rem + $size / $doc-font-size;
+}
+
+/*
+   @include transition(PROPERTY DURATION DELAY(OPTIONAL) TIMING-FINCTION);
+   ========================================================================== */
+
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+}

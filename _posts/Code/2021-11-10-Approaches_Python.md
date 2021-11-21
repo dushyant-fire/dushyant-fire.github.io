@@ -12,6 +12,13 @@ permalink:	/code/Python/Data_approaches
 
 - Using `any()` provides an easy solution and can be impemented by the following `any(i in neglect_strings for i in quad.split('_'))`. In short, the built-in function `any([condition 1, condition 2,..])` behaves like a logical *OR* operator (similar to `|`,`and(A,B)` in MATLAB), and `all()` behaves like a logical *AND* operator (`&`, `and()` in MATLAB)
 
+- Finding location of an element in a list:
+```
+index = ['A','B','C','D','E'].index('B')
+print('index = ' + str(index)')
+```
+gives, `index = 1`
+
 ### Finding if a variable exist in Python
 - Local search:
 `if 'myVar' in locals():`

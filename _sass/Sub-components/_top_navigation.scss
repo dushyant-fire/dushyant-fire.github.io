@@ -1,0 +1,145 @@
+@import 'mixins';
+@import 'variables';
+
+/* Header for navigation */
+.navigation-wrapper {
+  /*max-width:  600px;*/
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif; /*'PT Sans Narrow', sans-serif;*/
+  font-weight: 700;
+  text-transform: uppercase;
+  @include clearfix;
+  border-bottom-style: solid;
+  border-bottom-color: $highlightcolor;
+  border-bottom-width: .5em;
+  justify-content: center;
+  background: $black;
+}
+
+/* Site name */
+.site-name {
+  @include grid(12,10);
+  @include prefix(12,1);
+  @include suffix(12,1);
+  margin-bottom: 1em;
+  /*float: none;
+  display: block;
+  justify-content: center;
+  align-items:  center;*/
+  @include font-rem(30);
+  @media #{$small} {
+    @include grid(12,2);
+    @include prefix(12,0.5);
+    @include suffix(12,0.5);
+    @include font-rem(16);
+  }
+  @media #{$x-large} {
+    @include grid(12,1.5);
+    @include prefix(12,2);
+  }
+  a {
+    color: #F2F2F2;
+  }
+}
+
+/* Top navigation links */
+.top-navigation {
+  @include grid(12,10);
+  @include prefix(12,1);
+  @include suffix(12,1);
+  /*margin-bottom: 1em;*/
+  position: relative;
+  /*padding: 0.5% 0% 0.5% 30%;*/
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  @media #{$small} {
+    @include grid(12,9);
+    @include prefix(12,0);
+    @include suffix(12,0);
+  }
+  @media #{$x-large} {
+    @include grid(12,8);
+  }
+  ul {
+    margin: 0 auto;
+    /*padding: 0.5% 0% 0.5% 30%;*/
+    clear: both;
+    list-style-type: none;
+  }
+  li {
+    display: block;
+    list-style-type: none;
+    border-bottom: 1px solid lighten($black,80);
+    border-bottom: 1px solid fade($black,10);
+    @include font-rem(17);
+    &:last-child {
+      border-bottom: 0 solid transparent;
+    }
+    @media #{$small} {
+      display: inline;
+      margin-right: 25px;
+      white-space: nowrap;
+      border-bottom: 0 solid transparent;
+    }
+    a {
+
+      display: block;
+      padding: 10px 0;
+      decoration: none;
+      border-bottom: 0 solid transparent;
+      @include transition(all .2s);
+      @media #{$small} {
+        display: inline;
+        padding: 0;
+      }
+    }
+  }
+}
+
+// Style the toggle menu link and hide it
+.nav .navtoggle {
+  @include font-rem(18);
+  font-weight: normal;
+  background-color: $black;
+  color: $white;
+  border: none;
+  cursor: pointer;
+  @media #{$small} {
+    display: none;
+  }
+}
+.nav button {
+  border: none;
+  background: none;
+}
+.navtoggle i {
+  z-index:-1;
+}
+
+.current {
+  Opacity: 0.4;
+}
+
+.social_links {
+  position: relative;
+  padding:  10px;
+  displace: inline;
+  font-size:  12px;
+  text-align: center;
+
+  a {
+    color: #FAFBFC;
+  }
+}
+
+.social_link_img{
+  width: 25px; 
+  border: none;
+  padding: 0.05% 0.05% 0.05%;
+
+  box-shadow: none;
+  -webkit-box-shadow: 0;
+  -moz-box-shadow: 0;
+  -o-box-shadow: 0;
+  -ms-box-shadow: 0;
+}

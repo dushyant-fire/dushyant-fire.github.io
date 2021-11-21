@@ -37,15 +37,19 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+      <div class="sidebar">
+        <p> Sidebar for current page contents </p>
+      </div>
+      
+      <div id="main_content" class="inner">
         <h1>{{ page.title }}</h1>
         {{ content }}
-      </section>
+      </div>
     </div>
 
     <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
+    <div id="footer_wrap" class="outer_footer">
+      <footer class="inner_footer">
         {% if site.github.is_project_page %}
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}

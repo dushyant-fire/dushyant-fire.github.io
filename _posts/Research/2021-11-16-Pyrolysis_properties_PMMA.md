@@ -5,8 +5,6 @@ permalink:	/research/pyro-prop-pmma
 category:	research
 ---
 
-## Comparison of pyrolysis properties of cast and extruded PMMA
-
 Poly (methyl methacrylate) (PMMA) has long been a benchmark material of study in the fire research and fire modeling community due to its simple and predictable thermal decomposition behavior. Two common PMMA manufacturing processes, casting and extruding, produce polymers with slightly different properties and characteristics, primarily a result of differences in molecular mass.
 
 A dichotomy has been observed between study and application; while cast PMMA is more commonly studied and modeled, it is extruded PMMA that has wider use and application. This study investigates the differences between cast and extruded PMMA on a property-specific level, and whether the differences justify unique pyrolysis models for each.
