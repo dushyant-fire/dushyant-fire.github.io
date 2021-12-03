@@ -57,4 +57,50 @@ output:
   var1  var2
 0   A1     3
 2   A3     5
+
+print(my_df.sort_values('var1',ascending=False))
+
+output:
+  var1  var2
+2   A3     5
+1   A2     4
+0   A1     3
 ```
+DataFrames can also be sorted by indexes
+- Creating an index: `DataFrame.set_index("Column name")`
+- Sorting by index: `DataFrame.sort_index(level="column name")` Can use multiple indices for a DataFrame
+
+### Adding and creating columns
+
+```py
+my_df["var3"]=my_df["var2"]**2
+print(my_df)
+
+output:
+  var1  var2  var3
+0   A1     3     9
+1   A2     4    16
+2   A3     5    25
+```
+
+### Summarizing statistics
+- You can use several built-in methods such as `
+.mean(),.median(),.max(),.min(),.std(),.var(),.cumsum(),.cummin()` for calculating mean, median, max, minimum, standard deviation, variance, cumulative sum, cumulative minimum, respectively.
+- An important way of aggregating method calls is by using `.agg()` to compute multipole statistics on multiple columns with one single method call:
+
+```py
+print(my_df[["var2","var3"]].agg([np.mean,np.median])) # I am using numpy methods so that I don't have to write function definitions for the built-in methods
+
+gives:
+
+        var2       var3
+mean     4.0  16.666667
+median   4.0  16.000000
+
+```
+
+- Counting values and proportions using `.value_counts(sort=True,normalize=True)` from a DataFrame which is sorted using `.drop_duplicates(subset="column name")`. DataFrames can be sorted on multiple columns by passing a list to the `subset`.
+
+- Aggregating data using:
+1. `.groupby()` method to group the DataFrame based on different variables within a column - such as red,green,blue within the column 'colors'
+2. Pivot tables: `.pivot_tables(values="Column to calculate statistics",index="columns to group",columns="second optinoal column to group",fill_value=0,margins=True` where the `fill_value` argument fills all NaNs with whatever value given by the user, margins add a cumulative statistics on the right and bottom.
