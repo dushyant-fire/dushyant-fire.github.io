@@ -317,6 +317,18 @@ Full-Width Styles
   -ms-box-shadow: 0;
 }
 
+.img_article {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.caption {
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+}
 
 #forkme_banner {
   display: block;

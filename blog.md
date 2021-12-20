@@ -6,5 +6,12 @@ permalink:	/blog/
 
 ## Articles
 
-## Publications (to another webpage)
-
+<ul>
+      {% for post in site.categories.blog %}
+        <li>
+          <a href="{{ post.permalink }}">{{ post.title }}</a>
+          <!-- <p>{{ post.categories }}</p> -->
+          <p>{{ post.excerpt }}</p>
+        </li>
+      {% endfor %}
+</ul>

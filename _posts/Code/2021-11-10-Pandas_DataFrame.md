@@ -84,8 +84,7 @@ output:
 ```
 
 ### Summarizing statistics
-- You can use several built-in methods such as `
-.mean(),.median(),.max(),.min(),.std(),.var(),.cumsum(),.cummin()` for calculating mean, median, max, minimum, standard deviation, variance, cumulative sum, cumulative minimum, respectively.
+- You can use several built-in methods such as `.mean(),.median(),.max(),.min(),.std(),.var(),.cumsum(),.cummin()` for calculating mean, median, max, minimum, standard deviation, variance, cumulative sum, cumulative minimum, respectively.
 - An important way of aggregating method calls is by using `.agg()` to compute multipole statistics on multiple columns with one single method call:
 
 ```py
@@ -104,3 +103,37 @@ median   4.0  16.000000
 - Aggregating data using:
 1. `.groupby()` method to group the DataFrame based on different variables within a column - such as red,green,blue within the column 'colors'
 2. Pivot tables: `.pivot_tables(values="Column to calculate statistics",index="columns to group",columns="second optinoal column to group",fill_value=0,margins=True` where the `fill_value` argument fills all NaNs with whatever value given by the user, margins add a cumulative statistics on the right and bottom.
+
+### Merging dataframes
+- Called as a method
+- Merging/Joining DataFrames on a common column can be done using `my_df.merge(my_df1,on='common_col')` All other common columns will be written with a suffix of `_x` for `my_df` and `_y` for `my_df1`. To add your own suffixes, include the syntax `suffixes='_suff_x','suff_y'` in the merge call.
+- Merging can be done in multiple ways with parameter `how`:
+|`how`|Description/Venn equivalence|Application/Caution|
+|---|---|---|
+|`inner` (default)| Merges only common elements (A\bigcap B)|Can result in loss of data|
+|`right`|Merges the left DF on all elements of the right dataframe but only those on the left where the column id matches the right column. Elements not in the other DF becomes `NaN`| Preserves data|
+|`left`|Similar to `right`, but the all elements are merged on the left DF| |
+|`outer`| Merges all data| Can be used to find not common elements|
+- Merging table on itself is also desirable when the data are of some types such as hierarchical, graph data. This helps compare column within a table to same column.
+- Merging can be validated in order to force a specific relation to be met by using the parameter `validate=None` (default value) to `validate = 'one_to_many'` or `many_to_one, many_to_many,one_to_one`. 
+
+### Concatenating dataframes
+- Called as a function using `pd.concat([list_of_df_to_be_merged],ignore_index=False,join='inner',sort=True,keys=[list_of_keys])`. Default value are listed in the above call. 
+- `Ignore_index` set as `False` duplicates index regardless of the dataframes, set as `True` reindexes from 0 to n-1. 
+- Default for `join` is `inner` and other options (as per given for `merge` can be selected)
+- The parameter `keys` add a label next to the first index of each merged dataframe, and reindexes the columns for each dataframe from 0 to n-1.
+
+### Appending Dataframes
+- Called as a method on a dataframe
+- Simplified version of concat, done using a similar call `df1.append(df2,ignore_index=False,sort=True)`
+-  Does not support `keys` or `join`. By default it is always `join=outer`
+
+### Merge_ordered function
+- Similar to `merge`, has similar use of `how`, `on`, `left_on`, and `right_on`, `suffixes`.
+- Default merge is `how='outer'`
+- Useful for Date/Time series data
+
+### Merge_asof() function
+- Can be used when merging two time series or date dataframes such that for any time for the left dataframe, a value in the right dataframe where the time is closest (or less than the time index on the left dataframe) is selected.
+- `df1.merge_asof(df2,suffixes=('_s1','_s2'),direction='backward')`, default for direction is 'backward'. Possible values for 'direction' are `forward, backward,nearest`.
+- This is amazing!

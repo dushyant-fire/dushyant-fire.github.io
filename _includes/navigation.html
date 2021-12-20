@@ -10,7 +10,10 @@
                 {% assign domain = site.github.url %}
             {% endif %}
 
-            <li><a href="{{ domain }}{{ item.url }}" {% if item.url contains 'http' %}target="_blank"{% endif %} {% if page.url != item.url %}class="current"{% endif %}>{{ item.title }}</a></li>
+            {% assign url_strings = page.url | split: "/" %}
+
+            <li><a href="{{ domain }}{{ item.url }}" {% if item.url contains 'http' %}target="_blank"{% endif %} {% if url_strings[1]=="research" or url_strings[1] == "blog" or page.url == item.url%}class="current"
+              {% endif %}>{{ item.title }}</a></li>
           {% endfor %}
         </ul>
     </nav>
