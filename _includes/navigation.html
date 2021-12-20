@@ -11,8 +11,9 @@
             {% endif %}
 
             {% assign url_strings = page.url | split: "/" %}
+            <!-- {{ url_strings[1] }} -->
 
-            <li><a href="{{ domain }}{{ item.url }}" {% if item.url contains 'http' %}target="_blank"{% endif %} {% if url_strings[1]=="research" or url_strings[1] == "blog" or page.url == item.url%}class="current"
+            <li><a href="{{ domain }}{{ item.url }}" {% if item.url contains 'http' %}target="_blank"{% endif %} {% if url_strings[1]== item.title or page.url == item.url%}class="current"
               {% endif %}>{{ item.title }}</a></li>
           {% endfor %}
         </ul>
