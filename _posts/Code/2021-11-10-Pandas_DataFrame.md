@@ -6,7 +6,7 @@ date:	2021-11-24 18:00:00 -0000
 permalink:	/code/Python/DataFrame
 ---
 
-### Inspecting a DataFrame
+## Inspecting a DataFrame
 - If you have a DataFrame like this:
 
 ```py
@@ -38,8 +38,11 @@ min     3.0
 75%     4.5
 max     5.0
 ```
-### Subsetting and sorting DataFrames
+- When loading the data from a .csv file, `pd.read_csv('filename.csv',index_col='Optional_column_name_for_index',chunksize=100)`, Here, chunksize, analyses the file for first 100 datapoints. Using chunksize will be useful when analysing a large dataset
 
+## Subsetting and sorting DataFrames
+
+### Directly selecting specific columns with a criteria
 ```py
 ----
 print(my_df[my_df['var2']>3])
@@ -70,7 +73,11 @@ DataFrames can also be sorted by indexes
 - Creating an index: `DataFrame.set_index("Column name")`
 - Sorting by index: `DataFrame.sort_index(level="column name")` Can use multiple indices for a DataFrame
 
-### Adding and creating columns
+### Method `pandas.query()`
+- Used to search and select specific data from the Dataframe columns, when the required criteria is given by a query, in ' ' (quotes).
+- For example: `my_df.query('var3>15')` will return the last two rows of the dataframe
+
+## Adding and creating columns
 
 ```py
 my_df["var3"]=my_df["var2"]**2
@@ -83,7 +90,7 @@ output:
 2   A3     5    25
 ```
 
-### Summarizing statistics
+## Summarizing statistics
 - You can use several built-in methods such as `.mean(),.median(),.max(),.min(),.std(),.var(),.cumsum(),.cummin()` for calculating mean, median, max, minimum, standard deviation, variance, cumulative sum, cumulative minimum, respectively.
 - An important way of aggregating method calls is by using `.agg()` to compute multipole statistics on multiple columns with one single method call:
 
@@ -104,9 +111,11 @@ median   4.0  16.000000
 1. `.groupby()` method to group the DataFrame based on different variables within a column - such as red,green,blue within the column 'colors'
 2. Pivot tables: `.pivot_tables(values="Column to calculate statistics",index="columns to group",columns="second optinoal column to group",fill_value=0,margins=True` where the `fill_value` argument fills all NaNs with whatever value given by the user, margins add a cumulative statistics on the right and bottom.
 
-### Merging dataframes
+## Merging dataframes
+
+### Method `dataframe.merge()`
 - Called as a method
-- Merging/Joining DataFrames on a common column can be done using `my_df.merge(my_df1,on='common_col')` All other common columns will be written with a suffix of `_x` for `my_df` and `_y` for `my_df1`. To add your own suffixes, include the syntax `suffixes='_suff_x','suff_y'` in the merge call.
+- Merging/Joining DataFrames on a common column can be done using `my_df.merge(my_df1,on='common_col')` All other common columns will be written with a suffix of `_x` for `my_df` and `_y` for `my_df1`. To add your own suffixes, include the syntax `suffixes=('_suff_x','suff_y')` in the merge call.
 - Merging can be done in multiple ways with parameter `how`:
 |`how`|Description/Venn equivalence|Application/Caution|
 |---|---|---|
@@ -130,10 +139,60 @@ median   4.0  16.000000
 
 ### Merge_ordered function
 - Similar to `merge`, has similar use of `how`, `on`, `left_on`, and `right_on`, `suffixes`.
-- Default merge is `how='outer'`
+- **Default merge is `how='outer'`**
 - Useful for Date/Time series data
 
 ### Merge_asof() function
 - Can be used when merging two time series or date dataframes such that for any time for the left dataframe, a value in the right dataframe where the time is closest (or less than the time index on the left dataframe) is selected.
 - `df1.merge_asof(df2,suffixes=('_s1','_s2'),direction='backward')`, default for direction is 'backward'. Possible values for 'direction' are `forward, backward,nearest`.
 - This is amazing!
+
+## Manipulating DataFrame structure
+
+### Function `pandas.pivot_table()`
+- Called as a function, `pd.pivot_table(my_df,values='var2',index='var1',aggfunc='mean')`
+- The above creates a table with var1 as index, var2 as first column and for data in var2 with corresponding matches for var1 and var2 are averaged and listed in the table.
+```
+extra_cols = {'var1':'A1','var2':3}
+my_df=my_df.append(extra_cols,ignore_index =True)
+my_df["var3"]=my_df["var2"]**2
+
+pivoted = pd.pivot_table(my_df,values=['var2','var3'],index='var1',aggfunc=['mean','sum'])
+
+print(pivoted)
+```
+
+will print:
+
+```
+     mean       sum     
+     var2 var3 var2 var3
+var1                    
+A1      3    9    6   18
+A2      4   16    4   16
+A3      5   25    5   25
+```
+You can see, we added another value of 3 to var1 before squaring the dataframe and adding the column 'var3'. With this effect, the `pivot_table` output for sum displays the number 6 and 18 corresponding to the `var1` value 'A1'.
+
+### Method `df_wide.melt()`
+- This method melts the dataframe into taller dataframe.
+- For example:
+```
+melted = my_df.melt(id_vars='var1',value_vars='var2')
+print(melted)
+```
+
+gives:
+
+```
+  var1 variable  value
+0   A1     var2      3
+1   A2     var2      4
+2   A3     var2      5
+3   A1     var2      3
+```
+
+- If the method call includes the parameter `value_name='Name for Value column'` and `var_name='Name for Variable column'`, it will rename the columns headers for the value and variable column respectively.
+- Useful for reducing data to plot swarm plots, ANOVA etc.
+
+
