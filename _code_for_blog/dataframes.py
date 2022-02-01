@@ -6,6 +6,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+fig_save_dir = '../assets/images/Code_blog_pics/'
+
 np_arr = np.array(list)
 print(type(np_arr))
 print(np_arr[3])
@@ -37,6 +39,10 @@ extra_cols = {'var1':'A1','var2':3}
 my_df=my_df.append(extra_cols,ignore_index =True)
 my_df["var3"]=my_df["var2"]**2
 print(my_df)
+row_data = my_df[my_df["var1"]=="A3"]
+print(row_data)
+
+exit()
 
 ### Summary statistics
 print(my_df[["var2","var3"]].agg([np.mean,np.median]))
@@ -108,13 +114,33 @@ for arm_length in arms:
 	heights.append(arm_length*1.8)
 print(heights)
 
-g = sns.palplot(sns.color_palette('coolwarm',6))
-g.set(xlabel='Diverging palette')
-plt.savefig('Diverging_palette.jpeg')
+sns.palplot(sns.color_palette('coolwarm',6))
 
-plt.show()
+# plt.savefig(fig_save_dir+'Diverging_palette.jpeg')
+
+# plt.show()
+
+## Datetime objects
+import datetime as dt
+date = dt.datetime(2022,1,25,15,53,43)
+print(date.isoformat())
+print(dt.datetime.today())
+
+time_diff = dt.timedelta(hours = 10)
+date_new = date + time_diff
+print(date_new)
+
+ET = dt.timezone(dt.timedelta(hours=-5)) # Eastern standard time, timezone object
+#adding timezone to date info
+dt_with_tz = date.astimezone(ET)
+print(dt_with_tz)
+
+dt_string = "2022-01-22 1:00:01"
+dt_format = "%Y-%m-%d %H:%M:%S"
+print(dt.datetime.strptime(dt_string,dt_format))
+print(date.strftime("The person was seen on %Y/%m/%d at %H hours, %M minutes on the street of D.C."))
+print(time_diff.total_seconds())
 exit()
-
 ## Analyzing FIFA dataset for fun visualizations
 
 import matplotlib.pyplot as plt

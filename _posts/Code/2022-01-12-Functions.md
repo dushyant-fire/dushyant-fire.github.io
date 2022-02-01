@@ -82,3 +82,55 @@ def errors_func_sqrt(x):
 ```
 
 Now, if we pass `errors_func_sqrt(-9)` when the if statement line is uncommented, it will raise the `ValueError`, is we pass `errors_func_sqrt('hi')`, it will raise the `TypeError` and print the statement which we asked for.
+
+### Using `docstrings`
+- `docstrings` are function information written between ''' and ''' using standard formats
+- Google style or Numpy docstring standard can be accessed using `function.__doc__` or using the package `inspect` which can be called by `inspect.getdoc(function)`
+
+### Using context manager
+- A *compound* statement such as `with` is used to open a context_manager
+```
+with open("file.txt") as myf:
+	text = myf.read() 
+
+n = 0
+for word in text.split():
+	if word.lower() == ['bubblegum']
+		n = 0
+
+print(n) # Prints out number of times bubblegum word appears in the read file.
+```
+- Writing context manager using either *classes* or a *function* using the keyword `yield` and using the `@contextlib.contextmanager` decorator (which is a text that goes before the context manager function definition)
+
+```
+@contextlib.contextmanager
+def open_read_only(filename):
+  """Open a file in read-only mode.
+
+  Args:
+    filename (str): The location of the file to read
+
+  Yields:
+    file object
+  """
+  read_only_file = open(filename, mode='r')
+  # Yield read_only_file so it can be assigned to my_file
+  yield read_only_file
+  # Close read_only_file
+  read_only_file.close()
+
+with open_read_only('my_file.txt') as my_file:
+  print(my_file.read())
+```
+
+The above code will open a file as a read_only, as specified within the content manager function
+
+- In order to make sure some part of the code runs (such as closing a file) regardless of some error in coding, use `try`, `except`, and `finally` statements:
+```
+try:
+    # code that may cause exceptions
+except:
+    # code that handle exceptions
+finally:
+    # code that runs regardless of the other two statements
+```

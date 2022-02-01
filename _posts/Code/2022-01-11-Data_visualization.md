@@ -19,16 +19,25 @@ permalink:	/code/Python/DataVisualization
 ### Seaborn
 
 #### Seaborn methods
-- `sns.countplot()`, `sns.boxplot()`, `sns.violinplot()`, `sns.pointplot()`
+
+|Seaborn groups that create FacetGrid()|Seaborn individual equivalents| Use case|
+|---|---|---|
+|`catplot()`| `countplot()` - Counts of categorical data. Abstract representation - `boxplot()` , `violinplot()` (uses Kernel Density calculation), `lvplot()`. Statistical summaries - `pointplot()`, `barplot()`. For all plotting all data with some statistics  - `swarmplot()`, `stripplot()`| Catergorical plots|
+|`lmplot()`|`regplot()`| Regression plots|
+|`relplot()`| `lineplot()`| Relational plots|
 
 - Global method, `sns.catplot(kind='box/count/violin/point', x="Col_name_for_x", y="Col_name_for_y", data=dataframe_with_columns, ci=[low_confidence, high_confidence], hue = "Col_name_for_hue_or_subgroups",col="Column_name_for_creating_new_plot_for_each_category",col_wrap="number
 _of_columns_in_one_line")`
 
-|Seaborn groups that create FacetGrid()|Seaborn individual equivalents| Use case|
-|---|---|---|
-|`catplot()`| `countplot()`, `boxplot()`, `violinplot()`, `pointplot()`| Catergorical plots|
-|`lmplot()`|`regplot()`| Regression plots|
-|`relplot()`| `lineplot()`| Relational plots|
+- Seaborn coupled methods: 
+
+  	Two ways to plot comparision plots
+  		1. Create a grid separately (`g = sns.FacetGrid(dataframe, vars=['one_col'])`) and then map the plot (`g.map(sns.scatter,"X_label","Y_label")`) 
+  		2. Use the analogous method for plotting that creates the corresponding Grid object (`sns.lmplot()` which has syntax similar to `sns.catplot()`)
+
+     - `FacetGrid()` and `lmplot()` - Create rows and columns of comparable variables
+     - `Pairgrid()` and `pairplot()` - Pair two or more variables 
+     - `JointGrid()` and `joinplot()` - Joint plot on top and right of the axes showing x,y distributions
 
 #### Labels and titles
 - In seaborn, `catplot` (categorical plot), and `relplot` (relational plot) allows creating subplots (using col, col_wrap, or row, row_wrap parameters). Direct methods create a single axes and only the `AxesSubplot` object, while these two methods create a `FacetGrid` object and `AxesSubplot` objects (these objects are used for labeling/titling of the plots).
@@ -46,7 +55,7 @@ _of_columns_in_one_line")`
 
 Similarly, `sns.palplot(sns.color_palette('coolwarm',6))` will create a diverging palette of 6 shades.
 
-<img class="img_article" src="{{ site.github.url }}/_code_for_blog_/Diverging_palette.jpeg">
+<img class="img_article" src="{{ site.github.url }}/assets/images/Code_blog_pics/Diverging_palette.jpeg">
 
 <p class="caption">Diverging Palette</p>
 
