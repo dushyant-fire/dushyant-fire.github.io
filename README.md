@@ -7,7 +7,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ## Hello World
 
-The purpose of this website is to maintain a continuous blog/report of common errors encountered while learning various data processing, statistical, type-setting softwares. This is no way a comprehensive guide, but a beginning.
+This is my website repository. The purpose of this website is multi-fold:
+- To maintain an online presence/portfolio of my work/research
+- To maintain a continuous blog/report of common errors encountered while learning various data processing, statistical, type-setting software.
 
-Learning and adapting to different languages is difficult, espcially when it comes to data analysis. There are syntax issues arising from muscle memory, recurring error messages over a couple of months.
+Learning and adapting to different languages is difficult, especially when it comes to data analysis. There are syntax issues arising from muscle memory, recurring error messages over a couple of months.
 
