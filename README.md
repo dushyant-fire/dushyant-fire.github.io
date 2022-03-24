@@ -13,3 +13,5 @@ This is my website repository. The purpose of this website is multi-fold:
 
 Learning and adapting to different languages is difficult, especially when it comes to data analysis. There are syntax issues arising from muscle memory, recurring error messages over a couple of months.
 
+blah blah blah.
+
