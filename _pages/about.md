@@ -2,24 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: # Research. Breathe. Hike.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: bio-photo.png
+  image_circular: True # crops the image to make it circular
+  more_info: # >
+    # <p>555 your office number</p>
 
-news: true # includes a list of news items
+news: False # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I’m Dushyant Chaudhari and currently working as a Research Engineer at the <a href='https://fsri.org'>Fire Safety Research Institute (FSRI)</a>, a part of <a href="https://ul.org">UL Research Institutes</a>. I completed my Ph.D in Mechanical engineering at University of Maryland (UMD), College Park where I researched on the problem of material flammability, pyrolysis, flame spread via multi-scale experiments and modeling. Prior to that, I completed my Masters in Chemical Engineering at Texas A&M University, College Station. I am from India and completed by bachelors in Chemical Engineering at Visvesvaraya National Institute of Technology (VNIT, Nagpur).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+This website is a collection of brief summary of my [academic research](/projects/), a continuously updated collection of open source coding observations pertaining to [open source coding](/blog/) and personal [hobbies](/blog/). 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Feel free to reach out to me at [dush.chaudhari@gmail.com](mailto:dush.chaudhari@gmail.com) or connect with me at any of the media handles in the bottom navigation bar. I am particularly interested in applying my skills for research in model development for wildland-urban interface (WUI) region, waste up-cycling via pyrolysis, and modeling of heat transfer and thermodynamic processes. 

@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - dushyant-fire
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - dushyant-fire/dushyant-fire.github.io
+  - ulfsri/fsri_materials_database
+  - MaCFP/macfp-db
+  - firemodels/fds
