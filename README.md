@@ -1,3 +1,7 @@
+[![Check for broken links](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/broken-links.yml/badge.svg)](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/broken-links.yml)
+[![Check for broken links](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/broken-links.yml/badge.svg)](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/broken-links.yml)
+[![Deploy site](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/deploy.yml)
+
 # [dushyant-fire.github.io](https://dushyant-fire.github.io )
 
 A collection of my fire research journey, and multi-dimensional blog about my interests.

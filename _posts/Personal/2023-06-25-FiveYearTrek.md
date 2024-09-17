@@ -6,6 +6,9 @@ description: The journey of recovery from a chronic injury
 categories: personal
 tags: philosophy
 featured: true
+giscus_comments: true
+toc:
+  sidebar: left
 ---
 
 On a regular weekday, after I just began my Ph.D. at UMD, I was learning to use an instrument that would eventually become a big part of my research. I had to handle a tiny sample holder containing 4 mg of a sample with a pair of tweezers and place it on top of a thin disk, which was a part of a $5000 delicate sample carrier sitting on top of a mass balance. It was the first time I attempted to perform experiments that directly impacted my research. Quite naturally, my at-the-time fidgety hands dropped the lid inside the mass balance and required careful extraction using a pair of tweezers with the steady hands of a research colleague. 

@@ -5,6 +5,9 @@ title:	"Backpacking on an Appalachian Trail Section: Bear's den to Harpers Ferry
 description: First backpacking experience after recovery from a chronic injury (The five year trek)
 categories: personal
 tags: outdoors backpacking
+giscus_comments: true
+toc:
+  sidebar: left
 ---
 
 To sum the experience in one word - _Grueling_

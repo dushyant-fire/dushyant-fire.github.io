@@ -5,6 +5,9 @@ title:	Are We Humans or Are We Fractals?
 description: Contemplating existence
 categories: personal
 tags: philosophy
+giscus_comments: true
+toc:
+  sidebar: left
 ---
 
 Art and Science are considered separate disciplines, but very few comprehend their delicate intimacy. Their relationship so delicately arranged that it often goes unnoticed. The inconspicuously conspicuous intricacy is hidden deep under the mirage of modern illusions. Many of these are visible but are unconsciously overlooked.
@@ -45,6 +48,6 @@ The fractal nature of humans, as an individual, a society and a culture also sho
 
 A tree does not become a tree unless someone teaches a child that the poem written by the earth on the sky has a title ‘tree’. But a grown-up child can consciously decide not to call it a tree, but a ‘pedh’. As these unconscious and conscious decisions sculpt the pattern of thoughts that make up our individual ‘identity’, a family identity reflects the interpersonal relational dynamics, a local disposition highlights regional demeanor and a national identity gives birth to stereotypes. Our psychological development starts from the microscale teaching and bursts into an interplay of what was learned and what is ‘unlearnt’ through the conscious judiciary. The convoluted nature of human psychology is fractal.
 
-A fractal dimension is not necessarily an integer, implying that the social and natural phenomena observed are not Euclidian, or linearly scalable, in nature. An extension of a stereotype to an individual dissolves the individual complexity through which the human character was developed. The complexity of the processes should be appreciated and addressed with the non-linearity of the natural world in mind. The simple linear extrapolations of the fractal nature of the world are ignored, lost and simplified.
+A fractal dimension is not necessarily an integer, implying that the social and natural phenomena observed are not Euclidean, or linearly scalable, in nature. An extension of a stereotype to an individual dissolves the individual complexity through which the human character was developed. The complexity of the processes should be appreciated and addressed with the non-linearity of the natural world in mind. The simple linear extrapolations of the fractal nature of the world are ignored, lost and simplified.
 
 The units of measurements which are our prejudices severely affect our ability to accept any individual for the way they are. The better we understand where these prejudices come from, and explore the hidden fractal pattern that lies under each prejudice, we can be more self-aware of ourselves and others. We would be in resonance with the fractal universe that is both inside and outside us.

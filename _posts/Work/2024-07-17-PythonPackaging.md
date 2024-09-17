@@ -6,6 +6,9 @@ description: A beginners guide to Python packaging using poetry and documentatio
 categories: work
 tags: code research
 featured: true
+giscus_comments: true
+toc:
+  sidebar: left
 ---
 
 # Packaging guide for beginners
