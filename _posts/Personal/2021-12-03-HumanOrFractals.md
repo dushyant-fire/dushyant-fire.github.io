@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2021-12-03 16:40:16
-title:	Are We Humans or Are We Fractals?
+title: Are We Humans or Are We Fractals?
 description: Contemplating existence
 categories: personal
 tags: philosophy

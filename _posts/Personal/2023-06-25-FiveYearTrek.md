@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2023-06-25
-title:	The Five Year Trek
+title: The Five Year Trek
 description: The journey of recovery from a chronic injury
 categories: personal
 tags: philosophy
@@ -11,13 +11,13 @@ toc:
   sidebar: left
 ---
 
-On a regular weekday, after I just began my Ph.D. at UMD, I was learning to use an instrument that would eventually become a big part of my research. I had to handle a tiny sample holder containing 4 mg of a sample with a pair of tweezers and place it on top of a thin disk, which was a part of a $5000 delicate sample carrier sitting on top of a mass balance. It was the first time I attempted to perform experiments that directly impacted my research. Quite naturally, my at-the-time fidgety hands dropped the lid inside the mass balance and required careful extraction using a pair of tweezers with the steady hands of a research colleague. 
+On a regular weekday, after I just began my Ph.D. at UMD, I was learning to use an instrument that would eventually become a big part of my research. I had to handle a tiny sample holder containing 4 mg of a sample with a pair of tweezers and place it on top of a thin disk, which was a part of a $5000 delicate sample carrier sitting on top of a mass balance. It was the first time I attempted to perform experiments that directly impacted my research. Quite naturally, my at-the-time fidgety hands dropped the lid inside the mass balance and required careful extraction using a pair of tweezers with the steady hands of a research colleague.
 
 <h4> Zero </h4>
 
-In hindsight, this episode triggered a series of changes in the following years - some so tiny that I never thought it would create a big difference in the outcomes. At the moment when I dropped the lid, I vividly remember that just a flash of a moment ago, I had envisioned the future scene, including the emotions on my future face. 
+In hindsight, this episode triggered a series of changes in the following years - some so tiny that I never thought it would create a big difference in the outcomes. At the moment when I dropped the lid, I vividly remember that just a flash of a moment ago, I had envisioned the future scene, including the emotions on my future face.
 
-> *The reality I was facing was separated only fractionally in time and space from the dream that my mind steered me through.*
+> _The reality I was facing was separated only fractionally in time and space from the dream that my mind steered me through._
 
 Quite often, guilt and shame have a way of quickly filling the emptiness created in the stillness of such an event. Surprisingly, none of those managed to exist in that space for me, and the incident did not bother my advisor as he calmly, yet in a slight worry, assigned the experienced researcher to the rescue of the equipment. What shifted in me, were two things - **one, the curiosity to understand how that all happened within a dreaming moment**, and **two, the urge to become steadier and not recreate the incident.**
 

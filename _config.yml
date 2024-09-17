@@ -8,7 +8,7 @@ middle_name: M.
 last_name: Chaudhari
 email: dush.chaudhari@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A collection of my fire research journey, and multi-dimensional blog about my interests. 
+  A collection of my fire research journey, and multi-dimensional blog about my interests.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -69,7 +69,6 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-
 
 acm_id: # your dl.acm.org/profile/id
 blogger_url: # your blogger URL
@@ -170,10 +169,10 @@ disqus_shortname: # al-folio # put your disqus shortname
 # external_sources:
 #   - name: medium.com
 #     rss_url: https://medium.com/@al-folio/feed
-  # - name: Google Blog
-  #   posts:
-  #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-  #       published_date: 2024-05-14
+# - name: Google Blog
+#   posts:
+#     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#       published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -305,7 +304,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["code", "research", "outdoors"] # these tags will be displayed on the front page of your blog
-display_categories: ["personal","work"] # these categories will be displayed on the front page of your blog
+display_categories: ["personal", "work"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -321,7 +320,7 @@ scholar:
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
-  
+
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
@@ -345,7 +344,7 @@ enable_publication_badges:
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
-    [
+  [
     abbr,
     abstract,
     additional_info,
@@ -436,7 +435,6 @@ enable_progressbar: true # enables a horizontal progress bar linked to the verti
 # -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
-
 
 # Add the url, version and integrity hash of the libraries you use in your site.
 # The integrity hash is used to ensure that the library is not tampered with.

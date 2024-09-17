@@ -13,6 +13,7 @@ nav_order: 4
 View
 <a href="#presents"> presentations and proceedings, </a> or
 <a href="#posters"> posters </a>
+
 <h1 id="presents">presentations and proceedings</h1>
 {% bibliography --file conferences --sort_by year,month --order descending %}
 
