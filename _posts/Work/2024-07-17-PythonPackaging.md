@@ -5,8 +5,8 @@ title:	"Python packaging guideline: Local compilation to documentation"
 description: A beginners guide to Python packaging using poetry and documentation using sphinx
 categories: work
 tags: code research
+featured: true
 ---
-
 
 # Packaging guide for beginners
 
