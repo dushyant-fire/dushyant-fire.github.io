@@ -2,12 +2,14 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of my research projects. 
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+display_categories: [work]
+horizontal: true
 ---
+
+There are more than those listed below. Not all projects are included due to continuous changes and other complexities to keep up an updated log. Refer to [publications](/publications/) and [conferences](/conferences/) for project outputs.
 
 <!-- pages/projects.md -->
 <div class="projects">
