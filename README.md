@@ -1,5 +1,6 @@
+[![Prettier code formatter](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/prettier.yml/badge.svg)](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/prettier.yml)
 [![Check for broken links](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/broken-links.yml/badge.svg)](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/broken-links.yml)
-[![Check for broken links](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/broken-links.yml/badge.svg)](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/broken-links.yml)
+[![Check for broken links on site](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/broken-links-site.yml/badge.svg)](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/broken-links-site.yml)
 [![Deploy site](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/dushyant-fire/dushyant-fire.github.io/actions/workflows/deploy.yml)
 
 # [dushyant-fire.github.io](https://dushyant-fire.github.io)
