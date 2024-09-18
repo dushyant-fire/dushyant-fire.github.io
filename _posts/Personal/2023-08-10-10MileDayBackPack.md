@@ -33,7 +33,7 @@ The first five miles to Raven's Rock were alright. A little up and down the hill
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" style="text-align: center;">
-        {% include figure.liquid loading="eager" path="assets/img/Blog_pics/Harpers_Ravens.JPG" title="One break" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Blog_pics/Harpers/Ravens.jpg" title="One break" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -58,7 +58,7 @@ The food that we ate, and that we enjoyed, was dry and I could have avoided carr
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" style="text-align: center;">
-        {% include figure.liquid loading="eager" path="assets/img/Blog_pics/Harpers_3.JPG" title="Zero" class="img-fluid rounded z-depth-1" width="50%" %}
+        {% include figure.liquid loading="eager" path="assets/img/Blog_pics/Harpers/3.jpg" title="Zero" class="img-fluid rounded z-depth-1" width="50%" %}
     </div>
 </div>
 <div class="caption">
@@ -78,10 +78,10 @@ The views from the Raven Rocks and Harpers Ferry were definitely a reward from a
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0" style="text-align: center;">
-        {% include figure.liquid loading="eager" path="assets/img/Blog_pics/Harpers_2.JPG" title="Raven's rock" class="img-fluid rounded z-depth-1" width="80%" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/Blog_pics/Harpers/2.jpg" title="Raven's rock" class="img-fluid rounded z-depth-1" width="80%" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0" style="text-align: center;">
-        {% include figure.liquid loading="eager" path="assets/img/Blog_pics/Harpers_4.JPG" title="Harpers Ferry" class="img-fluid rounded z-depth-1" width="80%" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/Blog_pics/Harpers/4.jpg" title="Harpers Ferry" class="img-fluid rounded z-depth-1" width="80%" zoomable=true %}
     </div>
 </div>
 <div class="caption">

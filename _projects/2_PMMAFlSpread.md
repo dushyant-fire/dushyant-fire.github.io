@@ -12,7 +12,7 @@ Corner fires are more hazardous than open wall fires due to the restricted geome
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Research_pics/IMG_4913.JPG" title="Propane flame" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Research_pics/PropFl.jpg" title="Propane flame" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
