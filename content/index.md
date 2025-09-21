@@ -15,4 +15,4 @@ Prior to that, I completed my Masters in Chemical Engineering at Texas A&M Unive
 Backpacking is my way to embrace life. When I cannot backpack, I enjoy macro and landscape photography, music, reading, and [writing about life and living](Journey/Journey.md). 
 
 ## Hi
-Whether it is an idea to explore for collaboration, a feedback on any of the content, or something you would like to learn more about, I am sure you can find a way to reach out :).
+Whether it is an idea to explore for collaboration, a feedback on any of the content, or something you would like to learn more about, let's chat.
