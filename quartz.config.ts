@@ -24,7 +24,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         title: "Forum",
-        header: "Italiana",
+        header: "Cardo",
         body: "Bodoni Moda",
         code: "IBM Plex Mono",
       },
