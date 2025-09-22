@@ -1,8 +1,11 @@
 ---
-tags:
+tags: 
   - philosophy
   - work
+draft: false
+date: 2021-12-03
 ---
+
 
 Art and Science are considered separate disciplines, but very few comprehend their delicate intimacy. Their relationship so delicately arranged that it often goes unnoticed. The inconspicuously conspicuous intricacy is hidden deep under the mirage of modern illusions. Many of these are visible but are unconsciously overlooked.
 

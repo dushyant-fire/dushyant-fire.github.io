@@ -1,8 +1,11 @@
 ---
-tags:
-  - backpacking
-  - personal
+tags: 
+ - backpacking
+ - personal
+draft: 
+date: 2023-10-23
 ---
+
 To sum the experience in one word - _Grueling_
 
 ### The Plan 

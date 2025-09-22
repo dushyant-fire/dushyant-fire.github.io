@@ -1,8 +1,11 @@
 ---
-tags:
+tags: 
   - work
   - python
+draft: 
+date: 2024-07-17
 ---
+
 ## Packaging guide for beginners
 
 The comprehensive guide from <a href="https://py-pkgs.org/welcome" target="_blank">py-pkgs</a> will be helpful in any case the following guidelines do not help.
@@ -66,7 +69,7 @@ Basic steps that reliably worked:
 
 Shown below is a `pyproject.toml` file for FIREpyDAQ. FIREpyDAQ is Facilitated Interface for Recording Experiments (FIRE), a python based Data Acquisition (DAQ) system. Currently, it is geared towards devices that are traditionally used for data acquisition. More information can be found at <a href="https://github.com/ulfsri/firepydaq/" target="_blank">firepydaq repository</a>
 
-```
+```python
 [tool.poetry]
 name = "firepydaq"
 version = "0.1.0"
@@ -102,7 +105,7 @@ build-backend = "poetry.core.masonry.api"
 
 - To automate the poetry functions, a Makefile makes life easier. Makefile require installation of make, which needs to be further explored. Once make is available, create an empty `Makefile` and add commands as below. No you can simple run `make build` from your terminal/command prompt to automate building of the dist, creating poetry.lock, and installing the lock file in the virtual environment automatically created by poetry.
 
-```
+```bash
 POETRY_OPTS ?=
 POETRY ?= poetry $(POETRY_OPTS)
 RUN_PYPKG_BIN = $(POETRY) run
@@ -121,12 +124,12 @@ build: ## Runs a build
 - You can create a `test_package.py` inside `tests`, which could have various functions for testing. by default `pytest` will only test functions that also has similar naming structure (`test_` or `_test`).
 - Before you can test, you will need to add a way for poetry to know that it needs to use pytest for testing the package. This can be done by calling the following two functions in cmd/terminal.
 
-```
+```bash
 $ poetry add --group dev pytest
 ```
 which will add the following lines in `pyproject.toml` file
 
-```
+```bash
 [tool.poetry.group.test.dependencies]
 pytest = "^8.2.2"
 ```
@@ -134,7 +137,7 @@ pytest = "^8.2.2"
 - Once this is done, you can run `poetry run pytest -v` directly and it will tell you in terminal how many `test_` or `_test` functions were tested. The success of running those functions is the passing criteria. Any failure is indicated in the terminal with the source of the error. The verbose option (`-v`) will output the succes/failure of each collected test functions.
 - Alternatively, you can add a `test` `PHONY` to the Makefile and run `make test` to initiate the testing.
 
-```
+```bash
 ##@ Testing
 
 .PHONY: test
@@ -148,14 +151,14 @@ test: ## Runs tests
 - Documentation will be compiled using sphinx, a commonly used resource for auto compilation. You can start by writing CONDUCT.md, CONTRIBUTING.md, CHANGELOG.md in the root folder. The references for each can be found in almost all packages.
 - To begin building you will first need to add the following to poetry configuration.
 
-```
+```bash
 $ poetry add --group dev myst-nb --python "^3.9"
 $ poetry add --group dev sphinx-autoapi sphinx-rtd-theme
 
 ```
 which will add the following to the `pyproject.toml` file.
 
-```
+```bash
 [tool.poetry.group.dev.dependencies]
 myst-nb = {version = "^1.1.1", python = "^3.9"}
 sphinx-autoapi = "^3.1.2"
@@ -192,7 +195,7 @@ html_theme = "sphinx_rtd_theme"
 ```
 - The Makefile has basic info as follows,
 
-```
+```bash
 # Minimal makefile for Sphinx documentation
 #
 
@@ -216,7 +219,7 @@ help:
 ```
 and the make.bat has the following,
 
-```
+```bash
 @ECHO OFF
 
 pushd %~dp0
