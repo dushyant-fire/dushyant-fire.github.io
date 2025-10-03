@@ -24,7 +24,7 @@ Therefore, I write.
 
 Even though writing allowed me to assimilate such observations and correlations, create elaborate stories, the more knowledge I gained during the Ph.D, while living, I learnt that I do not know anything. Knowledge seemed like liquid water that you can never hold in your palms. Slipping away, the more I learnt about it. Contradictory to the process of gaining expertise. But practising this process of writing helps me and motivates me to continue growing.
 
-Here, I write about things that motivate me. These things are work-related and personal, and thereby this digital garden. 🪴
+Here, I write about things that motivate me and still narrowing down on my writing interests. Primarily, these things are work-related and personal, and thereby this digital garden. 🪴
 
 ### Work-related: To keep my passion for science alive
 - Coding: Part of daily research activities, knowing that I struggled with learning some while trying to continue my work, I try to [compile guides](Python/Setting%20Up%20Python.md) for assisting someone who might be in a similar learnign phase.
